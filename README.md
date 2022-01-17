@@ -25,7 +25,7 @@ Mazard_2012 amplified 55 out of 71 samples while 71 samples. The comparison betw
 - fasta of the database reformatted for use with DADA2
 - phylogenetic tree of petB reference database with the length of sequence processed with Mazard_2012 and Ong_2022
 - alignment of whole petB gene loci with petB-F, petB-F50, petB-R and petB-634R
-- protein alignment of each subclade with i) Mazard_2012 ASVs, ii) Ong_2022 with ASVs from overlapping samples and iii) Ong_2022 with all ASVs
+- protein alignment of each subclade with i) Mazard_2012 ASVs, ii) Ong_2022 with ASVs from overlapping samples and iii) Ong_2022 with ASVs from all samples
 
 ## For R:
 - script for DADA2 to process raw Illumina sequences
