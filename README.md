@@ -36,6 +36,7 @@ Mazard_2012 amplified 55 out of 71 samples while 71 samples. The comparison betw
 - Mazard_2012 ASV table
 - Phyloseq used to make figures
 - protein sequence alignment of each subclade with i) Mazard_2012 ASVs, ii) Ong_2022 with ASVs from overlapping samples and iii) Ong_2022 with ASVs from all samples
+- BLAST output for subclades II-WPC2 and UC-A
 
 ### 5.2 Ong_2022: Filtered seawater amplified with Ong_2022
 - fasta file with all Ong_2022 ASV sequences
