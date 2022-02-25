@@ -50,6 +50,6 @@ Mazard_2012 amplified 55 out of 71 samples while 71 samples. The comparison betw
 - sorted_syn ASV table
 - Phyloseq used to make figures
 
-## 5. Phyloseq output and figures
+## 6. Phyloseq output and figures
 - R markdown used to process phyloseq and make figures
 - Files generated and used during phyloseq processing
