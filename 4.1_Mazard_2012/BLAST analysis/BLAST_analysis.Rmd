@@ -1,0 +1,62 @@
+---
+title: "BLAST analysis"
+author: "Denise Ong"
+date: "1/20/2022"
+output: html_document
+---
+
+E-value: likelihood that the given sequence match is by chance. Lower e-value, likely a better match. If E <1e -50, high confidence. If 0.01<E<1e-50, confident. If E>0.01, not significant.
+
+Bitscore: similarity of sequence and database. Higher bitscore, higher alignment.
+```{r}
+library(here)
+library(dplyr)
+library(stringr)
+library(tidyr)
+#read excel sheet
+blast <- read.table(file = here("5.1_Mazard_2012", "BLAST analysis", "petB_merged_Mazard_CTD.blast_remote_UC-A_II-WPC2.tsv"), sep = '\t', header = TRUE, fill = TRUE) %>%
+    tidyr::separate(col=qseqid, into=c("ASV", "subclade"), sep="\\|")
+
+blast_select<- blast %>%
+    filter(evalue <= 0.01) %>% #first filter all e-values less than equal to 0.01
+    filter(length >= 100) %>% # only select alignment length more than 100
+    group_by(ASV) %>%
+    filter(evalue == min(evalue)) %>% #first select for lowest e score
+    filter(bitscore == max(bitscore)) %>% #then select for max bitscore
+    ungroup() %>%
+    group_by(ASV, sacc) %>% 
+    slice(1) %>% # after I filer there is still many repeated assignments from the same accession number, just at slighly diff location on the genome. Since I am looking at only assignment, I choose one random row per ASV 
+    ungroup()
+
+readr::write_tsv(blast_select,  here("5.1_Mazard_2012", "BLAST analysis","BLAST_subset_Mazard_filt_UC-A_II-WPC2.txt"), na="")
+
+uc_a<-blast_select %>%
+    filter(subclade == "UC-A")
+
+wpc <- blast_select %>%
+    filter(subclade == "II-WPC2")
+
+assigned_asv <- blast_select %>%
+    select(subclade, ASV) %>%
+    distinct()
+blast_asv_all <- blast %>%
+    select(subclade, ASV) %>%
+    distinct()
+assigned_count <- assigned_asv %>%
+    group_by(subclade) %>%
+    tally(sort = TRUE) %>%
+    dplyr::rename("assigned" = n)
+
+unassigned_asv <- anti_join(blast_asv_all, assigned_asv) %>%
+    distinct() %>%
+    filter(!(subclade %in% c("II-WPC2_2", "UC-A_2")))
+unassigned_count <- unassigned_asv %>%
+    group_by(subclade) %>%
+    tally(sort = TRUE) %>%
+    dplyr::rename("inconclusive_blast" = n)
+
+count_join <- full_join(assigned_count, unassigned_count) 
+
+readr::write_tsv(count_join,here("5.1_Mazard_2012", "BLAST analysis","BLAST_output_count.txt"), na="")
+```
+

@@ -8,10 +8,7 @@ Raw sequences from Illumina Miseq sequencing deposited on NCBI at bioproject num
 
 # Directories
 
-## 1. Metadata
-- sample list
-
-## 2. petB database
+## 1. petB database
 - petB database from Farrant et al. (2016), formatted for the DADA2 pipeline
 - files used to make database
 - petB database formatted for DADA2 until subclade level
@@ -21,36 +18,30 @@ The taxonomy in the file is in the following format:
 
 Domain; Phylum; Genus; Subcluster; Clade; Subclade; ESTU (if specified); sequence
 
-## 3. developing primer
+## 2. developing primer
 - phylogenetic tree of petB reference database with the length of sequence processed with Mazard_2012 and Ong_2022
 - alignment of whole petB gene loci with petB-F, petB-F50, petB-R and petB-634R
 
-## 4. DADA2 processing
+## 3. DADA2 processing
 - script for DADA2 to process raw Illumina sequences
 
-## 5. Files generated and used for phyloseq processing
-Mazard_2012 amplified 55 out of 71 samples while 71 samples. The comparison between Mazard_2012 and Ong_2022 only includes 55 samples obtained by DNA extraction successfully amplified by both methods. Ong_2022 files will include alignments for all samples and overlapping samples. 
+## 4. Files generated and used for phyloseq processing
+Mazard_2012 amplified 55 out of 71 samples while 71 samples. The comparison between Mazard_2012 and Ong_2022 only includes 55 samples obtained by DNA extraction successfully amplified by both methods.
 
-### 5.1 Mazard_2012: Filtered seawater amplified with Mazard_2012
+### 4.1 Mazard_2012: Filtered seawater amplified with Mazard_2012
 - fasta file with all Mazard_2012 ASV sequences
 - Mazard_2012 ASV table
 - Phyloseq used to make figures
 - protein sequence alignment of each subclade with i) Mazard_2012 ASVs, ii) Ong_2022 with ASVs from overlapping samples and iii) Ong_2022 with ASVs from all samples
 - BLAST output for subclades II-WPC2 and UC-A
 
-### 5.2 Ong_2022: Filtered seawater amplified with Ong_2022
-- fasta file with all Ong_2022 ASV sequences
-- fasta file with Ong_2022 ASV sequences from overlapping samples
-- Ong_2022 ASV table with ASVs from all sequences
-- Ong_2022 ASV table with ASVs from overlapping samples
-- Phyloseq used to make figures
-- protein sequence alignment of each subclade with i) Ong_2022 with ASVs from overlapping samples and ii) Ong_2022 with ASVs from all samples
+### 4.2 Ong_2022: Filtered seawater and sorted Synechococcus cells amplified with Ong_2022
+- fasta file with all filtered and sorted ASV sequences
+- filtered and sorted samples ASV table
+- Filtered samples phyloseq used to make figures
+- Sorted samples phyloseq used to make figures
+- protein sequence alignment of each subclade with filtered samples Ong_2022 with ASVs from overlapping samples
 
-### 5.3 sorted_syn: Sorted Synechococcus cells amplified with Ong_2022
-- fasta file with all sorted_syn ASV sequences
-- sorted_syn ASV table
-- Phyloseq used to make figures
-
-## 6. Phyloseq output and figures
+## 5. Phyloseq output and figures
 - R markdown used to process phyloseq and make figures
 - Files generated and used during phyloseq processing

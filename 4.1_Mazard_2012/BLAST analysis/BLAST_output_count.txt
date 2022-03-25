@@ -1,0 +1,3 @@
+subclade	assigned	inconclusive_blast
+UC-A	318	193
+II-WPC2	67	180
