@@ -36,13 +36,13 @@ Mazard_2012 amplified 55 out of 71 samples while 71 samples. The comparison betw
 - BLAST output for subclades II-WPC2 and UC-A ([BLAST analysis](https://github.com/deniseong/marine-Synechococcus-metaB/tree/main/4.1_Mazard_2012/BLAST%20analysis))
 
 #### 4.2 Ong_2022: Filtered seawater and sorted Synechococcus cells amplified with Ong_2022
-- For each filtered and sorted samples, number of reads at each processing step ([Ong_2022_reads summary_dada2.xlsx](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/Ong_2022_reads%20summary_dada2.xlsx))
-- DADA2 output for filtered and sorted samples ([Ong_2022_dada2.tsv](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/Ong_2022_dada2.tsv))
-- fasta file with all filtered and sorted ASV sequences ([Ong_2022_taxo.fasta](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/Ong_2022_taxo.fasta))
-- filtered and sorted samples ASV table ([Ong_2022_asv.txt](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/Ong_2022_asv.txt))
+- For each filtered and sorted samples, number of reads at each processing step ([Ong_2022_reads summary_dada2_v2.xlsx](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/Ong_2022_reads%20summary_dada2_v2.xlsx))
+- DADA2 output for filtered and sorted samples ([Ong_2022_dada2_v2.tsv](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/Ong_2022_dada2_v2.tsv))
+- fasta file with all filtered and sorted ASV sequences ([Ong_2022_taxo_v2.fasta](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/Ong_2022_taxo_v2.fasta))
+- filtered and sorted samples ASV table ([Ong_2022_asv_v2.txt](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/Ong_2022_asv_v2.txt))
 - Filtered samples phyloseq used to make figures ([petB_Denise primer_phyloseq_CTD.RDS](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/petB_Denise%20primer_phyloseq_CTD.RDS)
 - Sorted samples phyloseq used to make figures ([petB_Denise primer_phyloseq_sortedsyn_initials.RDS](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/petB_Denise%20primer_phyloseq_sortedsyn_initials.RDS))
-- protein sequence alignment of each subclade with ASVs from overlapping samples filtered samples against reference database
+- protein sequence alignment of each subclade with ASVs from overlapping samples filtered samples against reference database ([Protein sequence alignment](https://github.com/deniseong/marine-Synechococcus-metaB/tree/main/4.2_Ong_2022/Protein%20sequence%20alignment))
 
 ### 5. Phyloseq output and figures
 - R markdown used to process phyloseq and make figures ([Syn metaB figures and tables.Rmd](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/5_Phyloseq%20output%20and%20figures/Syn%20metaB%20figures%20and%20tables.Rmd))
