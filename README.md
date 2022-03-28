@@ -12,7 +12,7 @@ Raw sequences from Illumina Miseq sequencing deposited on NCBI at bioproject num
 - petB database from Farrant et al. (2016), formatted for the DADA2 pipeline ([Farrant_database_noESTU.fasta](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/1_petB%20database/Farrant_database_noESTU.fasta))
 - Files used to make database ([reformatting_database](https://github.com/deniseong/marine-Synechococcus-metaB/tree/main/1_petB%20database/reformatting_database))
 
-The taxonomy in the file is in the following format:
+The taxonomy in the reformatted database is in the following format:
 
 Domain; Phylum; Genus; Subcluster; Clade; Subclade; sequence
 
