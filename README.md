@@ -40,7 +40,7 @@ Mazard_2012 amplified 55 out of 71 samples while 71 samples. The comparison betw
 - DADA2 output for filtered and sorted samples ([Ong_2022_dada2.tsv](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/Ong_2022_dada2.tsv))
 - fasta file with all filtered and sorted ASV sequences ([Ong_2022_taxo.fasta](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/Ong_2022_taxo.fasta))
 - filtered and sorted samples ASV table ([Ong_2022_asv.txt](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/Ong_2022_asv.txt))
-- Filtered samples phyloseq used to make figures ([petB_Denise primer_phyloseq_CTD.RDS]((https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/petB_Denise%20primer_phyloseq_CTD.RDS)
+- Filtered samples phyloseq used to make figures ([petB_Denise primer_phyloseq_CTD.RDS](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/petB_Denise%20primer_phyloseq_CTD.RDS)
 - Sorted samples phyloseq used to make figures ([petB_Denise primer_phyloseq_sortedsyn_initials.RDS](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.2_Ong_2022/petB_Denise%20primer_phyloseq_sortedsyn_initials.RDS))
 - protein sequence alignment of each subclade with filtered samples Ong_2022 with ASVs from overlapping samples
 
