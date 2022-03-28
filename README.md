@@ -9,7 +9,7 @@ Raw sequences from Illumina Miseq sequencing deposited on NCBI at bioproject num
 # Directories
 
 ## 1. petB database
-- petB database from Farrant et al. (2016), formatted for the DADA2 pipeline (/1_petB database/petB_721_FIXED_715_seqs_ShortName_FullLength.fasta)
+- [petB database from Farrant et al. (2016), formatted for the DADA2 pipeline] (/1_petB database/petB_721_FIXED_715_seqs_ShortName_FullLength.fasta)
 - files used to make database
 - petB database formatted for DADA2 until subclade level
 - petB database formatted for DADA2 until ESTU level (not used in this study)
