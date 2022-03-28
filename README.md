@@ -49,3 +49,4 @@ Mazard_2012 amplified 55 out of 71 samples while 71 samples. The comparison betw
 - Files generated and used during phyloseq processing ([output](https://github.com/deniseong/marine-Synechococcus-metaB/tree/main/5_Phyloseq%20output%20and%20figures/output))
 
 #### References:
+Farrant, G. K., Doré, H., Cornejo-Castillo, F. M., Partensky, F., Ratin, M., Ostrowski, M., Pitt, F. D., Wincker, P., Scanlan, D. J., Iudicone, D., Acinas, S. G., & Garczarek, L. (2016). Delineating ecologically significant taxonomic units from global patterns of marine picocyanobacteria. Proceedings of the National Academy of Sciences of the United States of America, 113(24), E3365–E3374. https://doi.org/10.1073/pnas.1524865113
