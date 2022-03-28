@@ -10,7 +10,7 @@ Raw sequences from Illumina Miseq sequencing deposited on NCBI at bioproject num
 
 ### 1. petB database
 - petB database from Farrant et al. (2016), formatted for the DADA2 pipeline ([Farrant_database_noESTU.fasta](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/1_petB%20database/Farrant_database_noESTU.fasta))
-- files used to make database ([petB_721_FIXED_715_seqs_ShortName_FullLength.fasta](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/1_petB%20database/petB_721_FIXED_715_seqs_ShortName_FullLength.fasta) & [read_syn_database.R](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/1_petB%20database/read_syn_database.R) & [Farrant Dore et al_Dataset_corrected.xlsx](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/1_petB%20database/Farrant%20Dore%20et%20al_Dataset_corrected.xlsx))
+- files used to make database ([reformatting_database](https://github.com/deniseong/marine-Synechococcus-metaB/tree/main/1_petB%20database/reformatting_database))
 
 The taxonomy in the file is in the following format:
 
