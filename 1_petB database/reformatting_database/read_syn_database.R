@@ -1,5 +1,8 @@
 # Read and edit syn database fasta file. To change the sequence name to the taxonomic levels in the excel sheet. 
 
+# Original fasta alignment from Laurance Garczarek ("petB_721_FIXED_715_seqs_ShortName_FullLength.fasta")
+# Original database assignment from Farrant et al. (2016) ("Farrant Dore et al_Dataset_corrected.xlsx")
+
 # Load libraries
 library(Biostrings) #to read fasta
 library(stringr)
@@ -74,7 +77,7 @@ tax_seq_noESTU <- tax_seq_noESTU %>%
     unite("tax", Domain:Subclade, sep = ";", remove = TRUE)
 
 ## Export as fasta
-dataframe2fas(tax_seq_ESTU, file = here("1_petB database","Farrant_database_ESTU.fasta"))
+#dataframe2fas(tax_seq_ESTU, file = here("1_petB database","Farrant_database_ESTU.fasta"))
 dataframe2fas(tax_seq_noESTU, file = here("1_petB database", "Farrant_database_noESTU.fasta"))
 
 ## Export another fasta for unassigned sequences
