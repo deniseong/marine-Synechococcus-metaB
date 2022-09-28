@@ -49,7 +49,7 @@ Mazard_2012 amplified 55 out of 71 samples while 71 samples. The comparison betw
 - Files generated and used during phyloseq processing ([output](https://github.com/deniseong/marine-Synechococcus-metaB/tree/main/5_Phyloseq%20output%20and%20figures/output))
 
 ### 6. DNA extraction protocol
-- 
+- Protocol used to extract DNA from sterivex filters. DNA is extracted using the Nucleospin Plant II DNA extraction kit from Macherey-Nagel with modification of manufacturer instructions ([DNA extraction protocol](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/6_DNA%20extration%20protocol/DNA%20extraction%20for%20filters%20Plant%20II%20Macherey%20Nalgel%20kit%20NIWA_DH%20AGR_JB.doc))
 
 #### References:
 Farrant, G. K., Doré, H., Cornejo-Castillo, F. M., Partensky, F., Ratin, M., Ostrowski, M., Pitt, F. D., Wincker, P., Scanlan, D. J., Iudicone, D., Acinas, S. G., & Garczarek, L. (2016). Delineating ecologically significant taxonomic units from global patterns of marine picocyanobacteria. Proceedings of the National Academy of Sciences of the United States of America, 113(24), E3365–E3374. https://doi.org/10.1073/pnas.1524865113
