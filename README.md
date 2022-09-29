@@ -24,7 +24,7 @@ Domain; Phylum; Genus; Subcluster; Clade; Subclade; sequence
 - Script for DADA2 to process raw Illumina sequences ([DADA2_script.Rmd](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/3_DADA2%20processing/DADA2_script.Rmd))
 
 ### 4. Files generated and used for phyloseq processing
-Mazard_2012 amplified 55 out of 71 samples while 71 samples. The comparison between Mazard_2012 and Ong_2022 only includes 55 samples obtained by DNA extraction successfully amplified by both methods.
+Mazard_2012 amplified 70 out of 71 samples while Ong_2022 amplified all 71 samples. The comparison between Mazard_2012 and Ong_2022 only includes 70 samples obtained by DNA extraction successfully amplified by both methods.
 
 #### 4.1 Mazard_2012: Filtered seawater amplified with Mazard_2012
 - For each sample, number of reads at each processing step ([Mazard_2012_reads summary_dada2.xlsx](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.1_Mazard_2012/Mazard_2012_reads%20summary_dada2.xlsx))
