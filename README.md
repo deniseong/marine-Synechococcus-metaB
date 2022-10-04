@@ -3,7 +3,7 @@
 Script and data for:
 
 
-Raw sequences from Illumina Miseq sequencing deposited on NCBI at bioproject number xxx.
+Raw sequences from Illumina Miseq sequencing deposited on NCBI at bioproject number PRJNA885274.
 
 Flow cytometry data is available on ([flowrepository.org](https://http://flowrepository.org/experiments/1773)) (Repository ID: FR-FCM-Z5P8).
 
