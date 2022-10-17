@@ -32,7 +32,7 @@ Mazard_2012 amplified 70 out of 71 samples while Ong_2022 amplified all 71 sampl
 - DADA2 output ([Mazard_2012_dada2.tsv](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.1_Mazard_2012/Mazard_2012_dada2.tsv))
 - fasta file with all Mazard_2012 ASV sequences ([Mazard_2012_taxo.fasta](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.1_Mazard_2012/Mazard_2012_taxo.fasta))
 - Mazard_2012 ASV table ([Mazard_2012_asv.txt](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.1_Mazard_2012/Mazard_2012_asv.txt))
-- Phyloseq used to make figures ([petB Mazard primer_phyloseq_CTD.RDS](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.1_Mazard_2012/petB%20Mazard%20primer_phyloseq_CTD.RDS))
+- Phyloseq used to make figures ([petB Mazard primer_phyloseq_CTD_2.0.RDS](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/4.1_Mazard_2012/petB%20Mazard%20primer_phyloseq_CTD_2.0.RDS))
 - For each subclade, protein sequence alignment of Mazard_2012 ASVs against reference database ([Protein sequence alignment](https://github.com/deniseong/marine-Synechococcus-metaB/tree/main/4.1_Mazard_2012/Protein%20sequence%20alignment))
 - BLAST output for subclades II-WPC2 and UC-A ([BLAST analysis](https://github.com/deniseong/marine-Synechococcus-metaB/tree/main/4.1_Mazard_2012/BLAST%20analysis))
 
@@ -46,7 +46,7 @@ Mazard_2012 amplified 70 out of 71 samples while Ong_2022 amplified all 71 sampl
 - For each subclade, protein sequence alignment of ASVs from overlapping filtered samples against reference database ([Protein sequence alignment](https://github.com/deniseong/marine-Synechococcus-metaB/tree/main/4.2_Ong_2022/Protein%20sequence%20alignment))
 
 ### 5. Phyloseq output and figures
-- R markdown used to process phyloseq and make figures ([Syn metaB figures and tables.Rmd](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/5_Phyloseq%20output%20and%20figures/Syn%20metaB%20figures%20and%20tables.Rmd))
+- R markdown used to process phyloseq and make figures ([Syn metaB figures and tables_3.0.Rmd](https://github.com/deniseong/marine-Synechococcus-metaB/blob/main/5_Phyloseq%20output%20and%20figures/Syn%20metaB%20figures%20and%20tables_3.0.Rmd))
 - Files generated and used during phyloseq processing ([output](https://github.com/deniseong/marine-Synechococcus-metaB/tree/main/5_Phyloseq%20output%20and%20figures/output))
 
 ### 6. DNA extraction protocol
