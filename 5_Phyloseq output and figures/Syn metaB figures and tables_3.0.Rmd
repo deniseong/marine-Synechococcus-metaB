@@ -131,7 +131,7 @@ join_filt_pct <- full_join(long_ong_pct, long_mazard_pct)  %>%
                                     "5" = "SA3"))
 
 filt_complete <- join_filt_pct %>%
-  ungroup %>%
+  ungroup() %>%
  # group_by(water_mass, cycle_name, cycle, Clade) %>%
   select(sample_number, Subclade, percent_ong, percent_mazard) %>%
   tidyr::complete(sample_number, Subclade) %>%
