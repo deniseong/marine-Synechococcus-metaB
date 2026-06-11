@@ -1,6 +1,7 @@
 # marine-Synechococcus-metaB
 
-Script and data for:
+Script and data for: Ong, D. R. Y., Gutiérrez-Rodríguez, A., Garczarek, L., Marie, D., & Lopes dos Santos, A. (2023). Nested PCR Approach for petB Gene Metabarcoding of Marine Synechococcus Populations. Microbiology Spectrum, 0(0), e04086-22. https://doi.org/10.1128/spectrum.04086-22
+
 
 
 Raw sequences from Illumina Miseq sequencing deposited on NCBI at bioproject number PRJNA885274.
